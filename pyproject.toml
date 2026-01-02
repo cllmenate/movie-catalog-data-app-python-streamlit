@@ -1,0 +1,20 @@
+[project]
+name = "movie-catalog-data-app-python-streamlit"
+version = "0.1.0"
+description = "Movie catalog data app using Python and Streamlit"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas==2.3.1",
+    "plotly==6.2.0",
+    "requests==2.32.4",
+    "streamlit==1.47.0",
+    "streamlit-aggrid==1.1.6",
+    "python-dotenv==1.0.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+    "ruff>=0.14.10",
+]
