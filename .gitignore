@@ -6,6 +6,15 @@ dist/
 wheels/
 *.egg-info
 
+# Streamlit
+.streamlit/
+
+# Ruff
+.ruff_cache/
+
+# pytest
+.pytest_cache/
+
 # Virtual environments
 .venv
 .env
